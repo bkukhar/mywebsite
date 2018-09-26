@@ -1,0 +1,144 @@
+/*@font-face {
+font-family : "'Anton'";
+font-style : normal;
+font-weight : 400;
+src : url('../fonts/anton-v9-latin-regular.eot');
+src : local('Anton Regular'), local('Anton-Regular'), url('../fonts/anton-v9-latin-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/anton-v9-latin-regular.woff2') format('woff2'), url('../fonts/anton-v9-latin-regular.woff') format('woff'), url('../fonts/anton-v9-latin-regular.ttf') format('truetype'), url('../fonts/anton-v9-latin-regular.svg#Anton') format('svg');
+}*/
+
+/*@font-face {
+    font-family: 'Baumans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/baumans-v7-latin-regular.eot');
+    src: local('Baumans Regular'), local('Baumans-Regular'), url('../fonts/baumans-v7-latin-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/baumans-v7-latin-regular.woff2') format('woff2'), url('../fonts/baumans-v7-latin-regular.woff') format('woff'), url('../fonts/baumans-v7-latin-regular.ttf') format('truetype'), url('../fonts/baumans-v7-latin-regular.svg#Baumans') format('svg');
+}*/
+
+body {
+    background: #eef2f3;
+    font-family: "Halvetica", sans-serif;
+}
+
+header {
+    height: 55px;
+    background: #1482b9;
+    /*border-bottom: solid #008db1 4px;*/
+    padding: 10px 0;
+}
+
+li {
+    float: left;
+    list-style: none;
+    vertical-align: middle;
+}
+
+a {
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Baumans", sans-serif;
+    text-decoration: none;
+    padding: 0px 50px;
+    color: #ebebeb;
+}
+
+li a:hover {
+    color: #6e233e;
+    background: #609bb9;
+    /*height: 55px;*/
+    padding: 25px 50px;
+}
+
+section {
+    border-bottom: solid #008db1 4px;
+    clear: both;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    color: #84425a;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    /*font-family: "Halvetica", sans-serif;*/
+    color: #006e8c;
+    text-align: center;
+    font-size: 24px;
+}
+
+.column {
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background: #d0e2f9;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 10px 5px grey;
+    margin: 30px;
+}
+
+div p {
+    font-size: 24px;
+    color: #006e8c;
+}
+
+.services {
+    height: 400px;
+}
+
+.price {
+    color: #629c44;
+    font-size: 34px;
+}
+
+label,
+.form-field {
+    color: #004e63;
+    font-family: "Halvetica", sans-serif;
+    font-size: 16px;
+}
+
+.required-field {
+    color: #84425a;
+}
+
+.contact_me {
+    border-bottom: dashed #008db1 4px;
+}
+
+.contacts {
+    color: #84425a;
+}
+
+img {
+    height: 220px;
+}
+
+.main_image {
+    height: 700px;
+
+}
+
+.center {
+    text-align: center;
+    padding: 200px;
+}
+
+p {
+    color: #444444;
+    font-size: 18px;
+}
+
+footer {
+    background: #006e8c;
+    margin-top: 1px;
+    padding: 3px;
+}
+
+.footer_text {
+    color: white;
+}
+
