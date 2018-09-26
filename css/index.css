@@ -127,7 +127,7 @@ img {
     padding: 200px;
 }
 
-p {
+.address {
     color: #444444;
     font-size: 18px;
 }
@@ -141,4 +141,3 @@ footer {
 .footer_text {
     color: white;
 }
-
